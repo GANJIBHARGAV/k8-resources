@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: annotations
+  labels:
+    project: roboshop
+    component: catalogue
+    tier: backend
+    environent: dev
+  annotations:
+    description: "This pod is created for learning purpose of roboshop project"
+    jenkins: "https://jenkins.com/build/job/catalogue/v3"
+spec:
+  conatiners:
+  - name: nginx
+    image: nginx    
