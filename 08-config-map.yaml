@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configmap-demo
+  labels:
+    purpose: config
+    environment: dev
+data:
+  course: "devops"
+  duration: "120hrs"
+  tariner: "siva"
+      
