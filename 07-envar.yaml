@@ -5,7 +5,7 @@ metadata:
   labels:
     purpose: envar-demo
 spec:
-  conatiners:
+  containers:
   - name: nginx
     image: nginx
     env:
